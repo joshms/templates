@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap");
+
+
+@font-face {
+    font-family: Quotable;
+    src: url("../fonts/Quotable_Regular_Font_by_7NTypes.otf");
+}
+
+@font-face {
+    font-family: Habitual;
+    src: url("../fonts/Habitual.ttf");
+}
+
+@font-face {
+    font-family: ScarletJosephine;
+          src: url("../fonts/ScarletJosephine.ttf");
+}
+
+
+body {
+    height:100vw;
+}
+
+/*BODY IDS FOR EACH PAGE----------*/
+#start_page {
+    background-image: url("../images/sun_rise.jpg");
+    background-size:contain;
+}
+
+#question_page {
+    background-color: slategray;
+}
+
+#outcome_page {
+    background-color: darkgray;
+}
+
+#end_page {
+    background-color: red;
+}
+/*END OF BODY IDs*/
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    color:white;
+    font-size: 4em;
+}
+
+h1#title_font {
+    font-family: "Stick No Bills";
+}
+
+h1#end_title {
+    text-align: center;
+}
+
+#centered_container {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:60%;
+transform:translate(-50%,-50%);
+    }
+
+.bodyText {
+    background-color:black;
+    width:100%;
+    font-family: Arial, sans-serif;
+    color:white;
+    font-size: 1.5em;
+    padding:10px;
+}
+
+a{text-decoration: none;}
+
+#answer_button_container {
+    position:absolute;
+    width:100%;
+}
+
+/*using h2 for button style*/
+h2 {
+    line-height:60px;
+    height: 60px;
+    width:300px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Quotable;
+}
+
+h2#optionA {
+    float:left;
+    color:white;
+    background-color: blue;
+    margin-right:20px;
+}
+
+h2#optionB {
+    float:left;
+    color:red;
+    background-color: beige;
+}
+
+h2#next_button {
+    float:right;
+    color:green;
+    background-color: lightgray;
+    width:200px;
+    margin-right:-20px;
+}
+
+h2#replay_button {
+    background-color:lightcyan;
+    color: green;
+    margin:auto;
+}
